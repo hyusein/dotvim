@@ -47,6 +47,9 @@ map <leader>n :NERDTreeToggle<CR>
 " Toggle TagList
 map <leader>p :TlistToggle<CR>
 
+nmap <buffer> <silent> <leader> ,PP
+let protodefprotogetter='$HOME/.vim/pullproto.pl'
+
 " File search mappings
 set path=**
 nnoremap <leader>f :find *
