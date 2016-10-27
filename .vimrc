@@ -37,6 +37,9 @@ nnoremap <silent> <F12> :let _s=@/<Bar>:%s/\s\+$//e<Bar>:let @/=_s<Bar>:nohl<CR>
 
 " Fast buffer switch
 nnoremap <F6> :buffers<CR>:buffer<Space>
+nnoremap <F7> :bp<CR>
+nnoremap <F8> :bn<CR>
+
 
 " Fast exit
 nnoremap <F3> :qall!<CR>
