@@ -12,6 +12,12 @@ set number
 set hidden
 set incsearch
 set laststatus=2 "always show status line
+set colorcolumn=90
+
+" Enable project specific .vimrc
+set exrc
+set secure
+
 
 " Turn off swap files
 set noswapfile
@@ -39,7 +45,6 @@ nnoremap <silent> <F12> :let _s=@/<Bar>:%s/\s\+$//e<Bar>:let @/=_s<Bar>:nohl<CR>
 nnoremap <F6> :buffers<CR>:buffer<Space>
 nnoremap <F7> :bp<CR>
 nnoremap <F8> :bn<CR>
-
 
 " Fast exit
 nnoremap <F3> :qall!<CR>
